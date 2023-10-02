@@ -80,13 +80,19 @@ jobs:
         with:
           node-version: "latest"
           registry-url: https://npm.pkg.github.com
-          scope: "@geordiep"
+          scope: "@GeordieP"
+
+      # - name: Add npm registry info for @geordiep scope
+      #   env:
+      #     NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      #   run: |
+      #     echo "//npm.pkg.github.com/:_authToken=\$NODE_AUTH_TOKEN\n@geordiep:registry=https://npm.pkg.github.com" >> .npmrc
 
       - name: Add npm registry info for @geordiep scope
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          echo "//npm.pkg.github.com/:_authToken=\$NODE_AUTH_TOKEN\n@geordiep:registry=https://npm.pkg.github.com" >> .npmrc
+          echo "@GeordieP:registry=https://npm.pkg.github.com" >> .npmrc
 
       - name: Publish package
         run: npm publish
