@@ -1,5 +1,6 @@
 {
-  "name": "@geordiep/daisyui",
+  "name": "@GeordieP/daisyui",
+  "version": "3.2.7",
   "version": "3.2.8",
   "description": "GP custom daisyUI - Tailwind CSS Components",
   "author": "Pouya Saadeghi, Geordie Powers",
@@ -7,14 +8,14 @@
   "homepage": "https://daisyui.com",
   "repository": {
     "type": "git",
-    "url": "https://github.com/geordiep/daisyui.git"
+    "url": "https://github.com/GeordieP/daisyui.git"
   },
   "funding": {
     "type": "opencollective",
     "url": "https://opencollective.com/daisyui"
   },
   "bugs": {
-    "url": "https://github.com/geordiep/daisyui/issues"
+    "url": "https://github.com/GeordieP/daisyui/issues"
   },
   "keywords": [
     "design-system",
@@ -52,7 +53,8 @@
     "access": "public",
     "branches": [
       "master"
-    ]
+    ],
+    "@GeordieP:registry": "https://npm.pkg.github.com/@GeordieP"
   },
   "prettier": "./src/prettier.config.js",
   "scripts": {
