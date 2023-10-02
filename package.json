@@ -1,6 +1,7 @@
 {
   "name": "@GeordieP/daisyui",
   "version": "3.2.7",
+  "version": "3.2.8",
   "description": "GP custom daisyUI - Tailwind CSS Components",
   "author": "Pouya Saadeghi, Geordie Powers",
   "license": "MIT",
