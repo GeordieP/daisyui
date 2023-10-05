@@ -1,5 +1,5 @@
 {
-  "name": "@GeordieP/daisyui",
+  "name": "@geordiep/daisyui",
   "version": "3.2.9",
   "description": "GP custom daisyUI - Tailwind CSS Components",
   "author": "Pouya Saadeghi, Geordie Powers",
@@ -53,7 +53,7 @@
     "branches": [
       "master"
     ],
-    "@GeordieP:registry": "https://npm.pkg.github.com/@GeordieP"
+    "@GeordieP:registry": "https://npm.pkg.github.com"
   },
   "prettier": "./src/prettier.config.js",
   "scripts": {
